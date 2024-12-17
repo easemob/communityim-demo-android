@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="em_sheet_item_title_color">#009eff</color>
+    <color name="demo_login_button_bg_start">#009EFF</color>
+    <color name="demo_login_button_bg_end">#334BFF</color>
+</resources>

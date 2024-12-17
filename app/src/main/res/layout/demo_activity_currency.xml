@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/ease_color_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.hyphenate.easeui.widget.ChatUIKitTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ease_toolbar_height"
+        app:titleBarTitle="@string/main_about_me_currency"
+        app:titleBarMenuTitleColor="@color/demo_title"
+        app:titleBarTitleTextColor="@color/demo_title"
+        app:titleBarMenuIconTint="@color/demo_title"
+        app:titleBarSubtitleTextColor="@color/ease_color_text_secondary"
+        android:visibility="visible" />
+
+    <com.hyphenate.easeui.widget.ChatUIKitSwitchItemView
+        android:id="@+id/switch_item_dark"
+        app:switchItemTitle="@string/main_about_me_currency_dark_model"
+        app:switchItemClickable="false"
+        style="@style/currency_switch_item_dark_mode"
+        android:layout_width="match_parent"
+        android:layout_height="54dp" />
+
+    <com.hyphenate.easeui.widget.ChatUIKitArrowItemView
+        android:id="@+id/arrow_item_feature"
+        app:arrowItemTitle="@string/main_about_me_currency_feature"
+        style="@style/currency_arrow_item_feature"
+        app:arrowItemShowArrow="true"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"/>
+
+    <com.hyphenate.easeui.widget.ChatUIKitArrowItemView
+        android:id="@+id/arrow_item_language"
+        app:arrowItemTitle="@string/currency_language"
+        style="@style/currency_arrow_item_language"
+        app:arrowItemShowArrow="true"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"/>
+
+    <com.hyphenate.easeui.widget.ChatUIKitArrowItemView
+        android:id="@+id/arrow_item_target_language"
+        app:arrowItemTitle="@string/currency_target_language"
+        style="@style/currency_arrow_item_language"
+        app:arrowItemShowArrow="true"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"/>
+
+    <com.hyphenate.easeui.widget.ChatUIKitArrowItemView
+        android:id="@+id/arrow_item_message_style"
+        app:arrowItemTitle="@string/currency_feature_message_style"
+        style="@style/currency_arrow_item_language"
+        app:arrowItemShowArrow="true"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"/>
+
+    <com.hyphenate.easeui.widget.ChatUIKitArrowItemView
+        android:id="@+id/arrow_item_extend_style"
+        app:arrowItemTitle="@string/currency_feature_extend_style"
+        style="@style/currency_arrow_item_language"
+        app:arrowItemShowArrow="true"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

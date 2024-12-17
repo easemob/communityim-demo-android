@@ -1,0 +1,4953 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>User Privacy Agreement</title>
+
+    <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      .lang-switch {
+        display: inline-flex;
+      }
+      .lang-switch-item {
+        border: 1px solid #dcdfe6;
+        cursor: pointer;
+      }
+      .lang-switch-item:first-child {
+        border-radius: 4px 0 0 4px;
+      }
+      .lang-switch-item:last-child {
+        border-radius: 0 4px 4px 0;
+        border-left: none;
+      }
+      .lang-switch-item a {
+        display: block;
+        padding: 4px 12px;
+        font-size: 14px;
+        color: #606266;
+        transition: all 0.3s;
+      }
+      .lang-switch-item.active {
+        border-color: #409eff;
+        background-color: #409eff;
+        box-shadow: -1px 0 0 0 #409eff;
+      }
+      .lang-switch-item.active a {
+        color: #fff;
+        text-decoration: none !important;
+      }
+      .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      @media (min-width: 768px) {
+        .container {
+          width: 750px;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .container {
+          width: 970px;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .container {
+          width: 1170px;
+        }
+      }
+
+      p {
+        color: #7a7a7a;
+        margin: 0 0 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="lang-switch">
+        <div class="lang-switch-item active">
+          <a>中文</a>
+        </div>
+        <div class="lang-switch-item"><a>English</a></div>
+      </div>
+
+      <div id="cn-content" class="content">
+        <h1
+          style="text-wrap-mode: wrap; text-align: center; line-height: 1.75em"
+        >
+          <span style="font-size: 24px">环信 SDK隐私政策</span>
+        </h1>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"></span>
+        </p>
+        <p
+          style="
+            margin-top: 0px;
+            margin-bottom: 10px;
+            text-wrap: wrap;
+            box-sizing: border-box;
+            color: rgb(122, 122, 122);
+            font-family: PingFang-SC-Light, 'PingFang SC', 'Hiragino Sans GB',
+              'Helvetica Neue', Helvetica, Arial, Verdana, 'Microsoft Yahei',
+              sans-serif;
+            font-size: 14px;
+            background-color: rgb(255, 255, 255);
+            text-align: right;
+          "
+        >
+          <span style="box-sizing: border-box">更新日期：2024年11月1日</span>
+        </p>
+        <p
+          style="
+            margin-top: 0px;
+            margin-bottom: 10px;
+            text-wrap: wrap;
+            box-sizing: border-box;
+            color: rgb(122, 122, 122);
+            font-family: PingFang-SC-Light, 'PingFang SC', 'Hiragino Sans GB',
+              'Helvetica Neue', Helvetica, Arial, Verdana, 'Microsoft Yahei',
+              sans-serif;
+            font-size: 14px;
+            background-color: rgb(255, 255, 255);
+            text-align: right;
+          "
+        >
+          <span style="box-sizing: border-box">生效日期：2024年11月1日</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em"><br /></p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >为了更好的保护您的相关权利，建议您仔细阅读本环信
+            SDK隐私政策声明（以下简称“本政策”），如果您对本政策内容有任何疑问和建议，您可以通过本政策中“联系我们”中公布的联系方式与我们联系。
+            环信严格遵守法律法规，按照业界成熟的安全与隐私标准，保护第三方开发者和其终端用户的个人信息。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >环信 SDK
+            是由北京亿思摩博网络科技有限公司（以下简称“我们”）提供服务的公有云产品。环信
+             SDK 产品对接方式包含 SDK、API
+            能力，由于目前相关法律法规、政策及标准中主要对 SDK
+            产品的应用提供相关指引，以下将统一以 SDK
+            视角描述相关内容，如果您是集成、调用 API
+            能力的第三方开发者，本指引中的内容同样适用于您。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >《环信即时通讯 SDK
+              隐私政策声明》主要向第三方开发者和其终端用户说明我们如何处理个人信息（处理包括“收集、存储、使用、加工、传输、提供、公开等”）。在注册、接入、使用环信
+              SDK（以下简称“本SDK”）产品和/或服务前，请第三方开发者和终端用户务必仔细阅读本声明。</span
+            ></strong
+          ><span style="font-size: 14px"
+            >在前述场景中，开发者作为个人信息处理者决定终端用户数据的处理目的、方式，我们作为个人信息处理受托方，在为开发者提供实现相关
+            SDK
+            特定业务功能的过程中仅代表开发者采集数据，并按开发者委托和指示处理数据。我们对个人敏感信息采用“加黑”的书写方式进行特别提醒。如对本政策内容有任何疑问、意见或建议，可随时通过本政策第九条提供的方式与我们联系。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap"><br /></p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px">面向开发者的特别说明</span></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">如您是开发者，请您：</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >1.
+            确认充分了解并同意本政策后再集成SDK产品，如果您不同意本政策的任何内容，应立即停止接入及使用SDK产品。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >2.
+            应仅在获得终端用户的同意后集成SDK产品并处理终端用户的个人信息。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >3.
+            遵守法律、法规收集、使用和处理终端用户的个人信息，包括但不限于制定和公布有关个人信息保护的隐私政策，向终端用户提供易于操作且满足法律法规要求的用户权利实现机制，并告知终端用户如何查阅、复制、修改、删除个人信息，撤回同意，以及限制个人信息处理、转移个人信息、获取个人信息副本和注销账号等。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap"><br /></p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px">面向终端用户的特别说明</span></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >1. 本政策不能替代开发者应用的隐私政策。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >2.
+            开发者应就其应用向您披露隐私政策，以向您声明其如何收集、处理及保护您的个人信息。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >3.
+            如果您寻求数据的访问权限，或试图纠正，修改或删除不正确数据，或您不想继续使用集成了SDK产品的应用，请直接与相应开发者（个人信息处理者）联系。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap"><br /></p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >本政策将帮助您了解以下内容：</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >一、收集的个人信息及如何使用个人信息</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">二、第三方终端用户的授权同意</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >三、如何共享、转让、公开披露第三方开发者和/或终端用户的个人信息</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >四、如何存储第三方开发者和/或终端用户的个人信息</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >五、如何保护第三方开发者和/或终端用户的个人信息安全</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >六、第三方开发者和/或终端用户如何管理其个人信息</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">七、如何处理儿童个人信息</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">八、如何更新本隐私政策声明</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">九、如何联系我们</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">十、其他</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong><br /></strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 18px"
+            ><strong>一、收集的个人信息及如何使用个人信息</strong></span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们遵循正当、合法、必要的原则，基于本声明所述的以下目的，收集和使用：</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em; text-indent: 2em">
+          <span style="font-size: 14px"
+            >1.
+            第三方开发者和/或终端用户主动提供或我们直接收集的个人信息；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em; text-indent: 2em">
+          <span style="font-size: 14px"
+            >2. 第三方终端用户在使用本 SDK
+            产品和/或服务过程中产生的个人信息；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em; text-indent: 2em">
+          <span style="font-size: 14px"
+            >3.
+            从第三方开发者或者其他第三方获取的第三方开发者和/或终端用户的个人信息。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们通常会在征得第三方开发者同意后收集个人信息。第三方开发者在获得终端用户的同意前，除非法律法规另行允许，不应收集终端用户的任何个人信息，不应启用本
+            SDK
+            产品及/或相关服务。我们会在本声明中载明收集的个人信息用途，如果我们要将收集个人信息用于本声明未载明的其它用途，我们会以合理的方式向第三方开发者告知，并在使用前再次征得第三方开发者的同意。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            >（一）第三方开发者和/或终端用户主动提供或我们直接收集的个人信息</strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >为实现本 SDK
+            的业务功能，我们可能需要向第三方开发者和/或终端用户收集相关个人信息。以下将详细列出本
+            SDK 的各项业务功能及为实现该功能所需收集的个人信息情况。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong><span style="font-size: 14px">基本功能</span></strong
+          ><span style="font-size: 14px"
+            >：本 SDK
+            的基本功能是为开发者提供稳定的即时通讯服务，包括登录、会话、好友关系、单聊、群聊、聊天室、推送等基础服务。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong><span style="font-size: 14px">扩展功能：</span></strong
+          ><span style="font-size: 14px"
+            >在基本功能的基础上，本 SDK
+            还提供了额外的扩展功能，比如文本消息翻译、内容审核等功能。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">必要收集的个人信息：</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >为实现基本功能和扩展功能都必须收集的个人信息如下：</span
+          >
+        </p>
+        <table>
+          <tbody>
+            <tr class="firstRow" style="height: 26.6667px">
+              <td
+                width="294"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <strong
+                    ><span style="font-size: 14px"
+                      >收集信息的具体内容</span
+                    ></strong
+                  >
+                </p>
+              </td>
+              <td
+                width="262"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <strong><span style="font-size: 14px">收集目的</span></strong>
+                </p>
+              </td>
+              <td
+                width="44"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                  word-break: break-all;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <strong><span style="font-size: 14px">平台</span></strong>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 26.6667px">
+              <td
+                width="294"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">设备识别码（APNS Token）</span>
+                </p>
+              </td>
+              <td
+                width="283"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >为提供消息投递、多端消息同步、消息漫游功能，同时为了预防安全风险，准确识别违反法律法规的情况</span
+                  >
+                </p>
+              </td>
+              <td
+                width="44"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">iOS</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 26.6667px">
+              <td
+                width="294"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Bundle ID</span>
+                </p>
+              </td>
+              <td
+                width="283"
+                colspan="1"
+                rowspan="2"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >为保障您的账户安全，保证云信通信服务仅在经您授权的应用中使用</span
+                  >
+                </p>
+              </td>
+              <td
+                width="44"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">iOS</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 26.6667px">
+              <td
+                width="294"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >应用的应用包名、应用版本号、安装运行路径</span
+                  >
+                </p>
+              </td>
+              <td
+                width="215"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android、HarmonyOS</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 26.6667px">
+              <td
+                width="294"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >设备类型、设备名称及型号、操作系统（版本信息）、网络连接类型及状态、IP地址</span
+                  >
+                </p>
+              </td>
+              <td
+                width="283"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >实现运行环境准确判断，优化网络调度，保障服务正常运行，便于排查通信服务运行中出现的问题</span
+                  >
+                </p>
+              </td>
+              <td
+                width="44"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android、iOS、HarmonyOS</span>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">可选信息：</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >为实现推送服务，我们会在SDK产品中嵌入第三方手机厂商的消息推送SDK，第三方SDK的信息请查阅</span
+          ><a href="https://www.easemob.com/importsdklist" target="_blank"
+            ><span style="font-size: 14px"
+              >环信 SDK 接入第三方SDK清单</span
+            ></a
+          ><span style="font-size: 14px">。</span>
+        </p>
+        <p style="text-wrap-mode: wrap"><br /></p>
+        <h4 style="text-wrap-mode: wrap"></h4>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            >（二）我们从第三方获得的第三方开发者和/或终端用户的个人信息</strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们可能从第三方开发者授权同意的第三方（我们的合作方）处间接获取第三方开发者和/或终端用户的个人信息，获取的个人信息是为实现本
+            SDK 产品和/或服务必要功能所必需的最少数量。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >我们会在收集前要求第三方对个人信息来源的合法性作出承诺，如基于取得终端用户同意处理个人信息时，我们会要求第三方向开发者和/或终端用户告知共享的目的、信息等内容，在依法取得开发者和/或终端用户同意后收集个人信息，确保在已获得的个人信息处理的授权同意范围内进行共享。</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >如第三方有违反法律法规要求或约定的行为，我们会立即停止从该方收集信息、停止合作并采取相应的补救措施将损失减少到最小；同时，我们会使用不低于对自身用户个人信息同等的保护水平对间接获取的个人信息进行保护，在间接获取个人敏感信息时，我们会采用更加严格的（如传输加密等）安全保障措施。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（三）相关系统权限申请</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >根据开发者和终端用户使用本 SDK
+            服务方案范围的不同，我们可能在第三方开发者使用本 SDK
+            过程中申请使用终端用户的系统权限，具体使用场景请见如下，具体申请的权限及申请目的如下表：</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">系统权限申请表</span>
+        </p>
+        <table>
+          <tbody>
+            <tr class="firstRow" style="height: 26.6667px">
+              <td
+                width="227"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <strong><span style="font-size: 14px">权限名称</span></strong>
+                </p>
+              </td>
+              <td
+                width="209"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <strong><span style="font-size: 14px">收集目的</span></strong>
+                </p>
+              </td>
+              <td
+                width="69"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <strong><span style="font-size: 14px">平台</span></strong>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                  word-break: break-all;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <strong><span style="font-size: 14px">是否必要</span></strong>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 54.6667px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >网络连接状态（ACCESS_NETWORK_STATE）</span
+                  >
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >判断网络连接状态及网络是否可用</span
+                  >
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">必要权限</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 54.6667px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >Wi-Fi网络状态（ACCESS_Wi-Fi_STATE和CHANGE_Wi-Fi_STATE）</span
+                  >
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >判断网络连接状态及网络是否可用</span
+                  >
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">必要权限</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 40px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">访问网络权限（INTERNET）</span>
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >判断是否能联网，以实现SDK 功能正常运行</span
+                  >
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android、iOS、HarmonyOS</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">必要权限</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 40px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >获取网络信息（GET_NETWORK_INFO）</span
+                  >
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >判断网络连接状态及网络是否可用</span
+                  >
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">HarmonyOS</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">必要权限</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 26.6667px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >设备存储（WRITE_EXTERNAL_STORAGE）</span
+                  >
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">提供发送本地文件消息功能</span>
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">必要权限</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 26.6667px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >设备存储（READ_EXTERNAL_STORAGE）</span
+                  >
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">提供发送本地文件消息功能</span>
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">必要权限</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 40px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">地理位置信息</span>
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >提供发送地理位置消息的功能</span
+                  >
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android、iOS、HarmonyOS</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">非必要权限</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 26.6667px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">摄像头（CAMERA）</span>
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >提供拍照并发送图片消息功能</span
+                  >
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">非必要权限</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 26.6667px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">麦克风（RECORD_AUDIO）</span>
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">提供发送音频消息功能</span>
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">Android</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">非必要权限</span>
+                </p>
+              </td>
+            </tr>
+            <tr style="height: 26.6667px">
+              <td
+                width="248"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >设备存储（STORE_PERSISTENT_DATA）</span
+                  >
+                </p>
+              </td>
+              <td
+                width="230"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px"
+                    >持久化存储业务系统运行所需的数据</span
+                  >
+                </p>
+              </td>
+              <td
+                width="60"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">HarmonyOS</span>
+                </p>
+              </td>
+              <td
+                width="86"
+                colspan="1"
+                rowspan="1"
+                style="
+                  padding: 6.4px 0.133333px;
+                  border-color: rgb(191, 191, 191);
+                  box-sizing: border-box;
+                  background: rgb(255, 255, 255);
+                  vertical-align: middle;
+                "
+              >
+                <p style="line-height: 1.75em">
+                  <span style="font-size: 14px">非必要权限</span>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >注意：当终端用户关闭权限即代表其取消了这些授权，我们将不再继续收集和使用对应的个人信息，也无法为终端用户提供上述与这些授权所对应的功能。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            >（四）以下情形中，我们收集、使用个人信息无需征得第三方开发者和/或终端用户的授权同意：</strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">1. 为订立、履行合同所必需；</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >2. 为履行法定职责或者法定义务所必需；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >3.
+            为应对突发公共卫生事件，或者紧急情况下为保护自然人的生命健康和财产安全所必需；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >4.
+            为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理个人信息；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >5.
+            依照个人信息保护法规定在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px">6. 法律行政法规规定的其他情形。</span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >注意&nbsp;如我们收集的信息无法单独或结合其他信息识别到第三方开发者和/或终端用户的个人身份，其不属于法律意义上的个人信息。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（五）个人信息的使用规则</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >1.&nbsp;
+            我们会根据本声明和/或与第三方开发者的合同约定，并仅为实现本 SDK
+            产品和/或服务功能，对所收集的个人信息进行处理。若需要将收集的个人信息用于其他目的，我们会以合理方式告知第三方开发者和/或终端用户，并在第三方开发者获得终端用户同意后和/或单独获得终端用户同意后进行使用。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >2.&nbsp; 我们向第三方开发者提供的 SDK
+            产品和/或服务停止运营后，或者第三方开发者和/或终端用户撤回个人信息的授权后，或者在第三方开发者和/或终端用户注销账号后，我们将会于合理的时间内销毁或匿名化处理从第三方开发者和/或终端用户处接收的所有个人信息，除非法律另有规定。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"
+              >二、第三方终端用户的授权同意</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >第三方开发者将本 SDK
+            产品和/或服务集成到其第三方中，为向终端用户提供本 SDK
+            产品和/或服务，我们会以合法合规的方式收集、存储、加工来自于第三方开发者和/或终端用户的个人信息。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >开发者在使用本 SDK
+              前，应当仔细阅读我们在官网公示的相关服务协议、本政策及第三方开发者合规指南(或同样性质的类似法律文件)，并依据您的产品收集使用个人信息的情况进行合规自查。在获得终端用户的同意前，除非法律法规另行允许，开发者不应收集终端用户的任何个人信息，不应启用本
+              SDK 产品及/或相关服务。请您注意，我们向您提供本 SDK
+              产品和/或服务的前提是：</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >1.&nbsp;
+            第三方开发者已经遵守并将持续遵守适用的法律、法规和监管要求收集、使用和处理第三方终端用户的个人信息，包括但不限于制定和公布有关个人信息保护声明或隐私政策等；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >2.&nbsp;
+            第三方开发者已经<strong>告知</strong>第三方终端用户并且<strong>已经依法获得终端用户充分、必要且明确的授权、同意和许可</strong>，尤其是<strong>涉及到敏感个人信息时的明示、单独同意和许可</strong>（若您的产品是针对不满十四周岁的儿童设计和开发的，您应已采取必要的技术措施，保证已获得其父母或者其他监护人的同意）、为提供本
+            SDK
+            产品和/或服务以及与第三方功能对应的目的，我们会收集和共享以及如何使用（包括允许我们根据本声明的规定收集和处理）第三方终端用户的个人信息；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >3.&nbsp;
+            除非适用法律另有规定，第三方开发者已经告知终端用户并且依法获得终端用户<strong
+              >充分必要的授权、同意和许可，允许我们对已经收集的个人信息进行去标识化处理，并且在符合相关法律法规的前提下，可以将收集、处理的信息用于本声明第一条列明的用途；</strong
+            ></span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >4.&nbsp;
+            第三方开发者已经向终端用户提供了易于操作的用户权利实现机制，并说明了终端用户可以如何以及何时行使选择权、如何访问、更正其个人信息，以及行使删除权、更改其授权同意的范围等操作。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"
+              >三、如何共享、转让、公开披露第三方开发者和/或终端用户的个人信息</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（一）共享</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >为实现本政策第一条中所提及目的的需要，我们可能会向我们的关联公司披露您的个人信息。“关联公司”指直接或间接控制我们、受我们控制或与我们共同受他人控制的任何其他主体。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们将按照法律法规的规定，对数据处理涉及的第三方进行严格的限制，要求其严格遵守我们关于个人信息保护的措施与要求。除本政策所述或者在收集终端用户的信息时特别说明外，未经第三方开发者的明示同意，我们不会将终端用户的信息共享给第三方。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（二）转让</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >我们不会将第三方开发者和/或终端用户的个人信息转让给任何公司、组织和个人，但以下情况除外：</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em; text-indent: 2em">
+          <span style="font-size: 14px"
+            >1.&nbsp; 事先获得第三方开发者和/或终端用户单独同意；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em; text-indent: 2em">
+          <span style="font-size: 14px"
+            >2.&nbsp;
+            在涉及合并、分立、解散、被宣告破产等原因需要转移个人信息的，我们会向开发者和/或终端用户告知接收方的名称或者姓名和联系方式，并要求接收方继续履行个人信息处理者的义务。接收方变更原先的处理目的、处理方式的，我们会要求接收方重新取得开发者和/或终端用户的同意。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em; text-indent: 2em">
+          <span style="font-size: 14px"
+            >3.&nbsp;
+            如涉及到个人信息转让，我们会在要求新的持有您个人信息的公司、组织继续受本政策的约束，否则我们将要求该公司、组织重新向您征求授权同意。接收方变更原先的处理目的、处理方式的，我们会要求接收方重新取得终端用户的同意。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（三）公开披露</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >我们不会公开披露第三方开发者和/或终端用户的个人信息，除非：</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em; text-indent: 2em">
+          <span style="font-size: 14px"
+            >1. 获得第三方开发者和/或终端用户的单独同意后；</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em; text-indent: 2em">
+          <span style="font-size: 14px"
+            >2.&nbsp;
+            在法律法规、法律程序、诉讼或政府主管部门强制要求的情况下。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"
+              >四、如何存储第三方开发者和/或终端用户的个人信息</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（一）存储方式和期限</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们会通过安全的方式存储第三方开发者和/或终端用户的信息，包括本地存储、数据库和服务器日志。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >一般情况下，我们只会在为实现本政策所述目的<strong>所必需的最短时间内或法律法规规定或个人信息主体另行授权同意的条件/范围内</strong>存储第三方开发者和/或终端用户的个人信息。但在下列情况下，且仅出于下列情况相关的目的，我们有可能需要较长时间保留第三方开发者和/或终端用户的个人信息：
+            （1）遵守适用的法律法规等有关规定；
+            （2）遵守法院判决、裁定或其他法律程序的要求；
+            （3）遵守相关政府机关或其他有权机关的要求；
+            （4）为执行相关服务协议或本声明、维护社会公共利益、处理投诉/纠纷，保护我们的客户、我们或我们的关联公司、其他用户或雇员的人身和财产安全或合法权益所合理必需的用途。</span
+          >
+        </p>
+        <h4 style="text-wrap-mode: wrap"></h4>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（二）存储地域</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们会按照法律法规规定，将境内收集的个人信息存储于<strong
+              >中国境内。</strong
+            ></span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >目前，我们不会跨境传输或存储第三方开发者和/或终端用户的个人信息。将来如需跨境传输或存储的，我们会向开发者和/或终端用户告知个人信息出境的目的、接收方、安全保证措施和安全风险，并征得开发者的同意和/或终端用户的单独同意，并满足法律法规所规定的其他条件。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"
+              >五、如何保护第三方开发者和/或终端用户的个人信息安全</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（一）安全保护措施</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们已使用符合业界标准的安全防护措施保护第三方开发者和/或终端用户提供的个人信息，防止数据遭到未经授权访问、公开披露、使用、修改、损毁、泄漏或丢失。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们采用业界领先的技术保护措施。我们使用的技术手段包括但不限于防火墙、加密（例如SSL）、去标识化或匿名化处理、访问控制措施等。此外，我们还会不断加强将SDK集成到第三方上的安全能力。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们建立了专门保障个人信息安全的管理制度、流程和组织。我们也会审查该管理制度、流程和组织，以防未经授权的人员擅自访问、使用或披露用户的信息。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（二）安全事件处置措施</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >若发生个人信息泄露、损毁、丢失等安全事件，我们会启动应急预案，阻止安全事件扩大。安全事件发生后，我们会及时以推送通知、邮件等形式向第三方开发者和/或终端用户告知安全事件的基本情况、我们即将或已经采取的处置措施和补救措施，以及我们对第三方开发者和/或终端用户的应对建议。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"
+              >六、第三方开发者和/或终端用户如何管理其个人信息</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们非常重视第三方开发者和/或终端用户对个人信息的管理，并尽全力提供对个人信息的查阅、复制、修改、删除、撤回同意、注销账号、投诉举报以及设置隐私功能等的相关权利，以使第三方开发者和/或终端用户有能力保障自身的隐私和信息安全。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          （一）针对第三方开发者
+        </p>
+        <p style="text-wrap-mode: wrap; text-indent: 2em">
+          <span style="font-size: 14px"
+            >1.第三方开发者应当为终端用户提供并明确其查阅、复制、修改、删除个人信息、撤回同意、转移个人信息、限制个人信息处理、获取个人信息副本和注销账号的方式。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; text-indent: 2em">
+          <span style="font-size: 14px"
+            >2.第三方开发者在使用本 SDK
+            的过程中，如果终端用户根据第三方开发者与我们的约定提出了个人信息相关的行权请求，并且第三方开发者已确定该等行权请求涉及到了第三方开发者向本
+            SDK
+            提供的个人信息时，请及时通过本政策第九条所述方式联系我们，并附上必要的书面证明材料。我们将及时核验相关材料，并按照相关法律法规，以及本政策等法律文本中明确的规则，为第三方开发者提供相应的支持与配合。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; text-indent: 2em">
+          <span style="font-size: 14px"
+            >3.如第三方开发者希望注销本 SDK
+            服务，可通过本政策第九条所述方式联系我们进行服务注销。我们将采取合理的步骤注销账户，我们将根据法律法规的要求删除个人信息。除非我们因法律原因而需要保存该等资料，我们将仅限于法律法规所规定的范围内进行处理，不会将其用于日常业务活动中。<strong
+              >请知悉，第三方开发者账户一旦注销完成，将无法恢复，请谨慎操作。在进行注销操作之前，请确保与第三方开发者账户相关的服务均已妥善处理。</strong
+            ></span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em; text-indent: 2em">
+          <br />
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong>（二）针对第三方终端用户</strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >由于第三方终端用户不是我们的直接用户，我们建议：</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >终端用户有权查阅、复制、修改、删除、撤回同意其相关的个人信息，如希望行使以上权利，由于您不是我们的直接用户，我们作为个人信息处理受托方，将遵照我们与第三方开发者的协议以及第三方开发者的指令处理您的个人信息，将与终端用户个人信息相关的请求直接发送给该第三方开发者，要求其处理和/或寻求帮助。开发者作为个人信息处理者对处理您的个人信息承担责任，并负有义务向您披露如何处理、保护您的个人信息，您应向开发者寻求行使个人信息主体权利。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"><br /></span
+          ></strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"
+              >七、如何处理儿童个人信息</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >请第三方开发者确保是14周岁（含）以上人士。请第三方开发者理解并知悉，如果第三方是针对儿童用户的，请第三方开发者务必确保第三方终端用户（儿童）的监护人已经阅读并同意了第三方的隐私政策，并且经其单独同意后提供儿童个人信息给我们，以实现第三方开发者在其隐私政策中所述的相关功能。</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >若此种场景下您作为儿童的父母或者监护人认为第三方开发者未取得您的同意而通过我们的SDK产品收集儿童信息，请第一时间联系第三方开发者进行删除，我们会基于第三方开发者的要求在核实情况后尽快协助删除相关数据。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"><br /></span
+          ></strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"
+              >八、如何更新本隐私政策声明</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >为给第三方开发者提供更好的服务以及随着本平台产品和/或服务的不断发展与变化，我们可能会适时对本政策进行修订。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >当本政策的条款发生变更时，我们会在版本更新时以弹窗、站内信、网站公告等方式进行提示，并说明生效日期。此外，如果更新后的本政策对第三方终端用户的权利有所影响，还需要请第三方开发者适时更新您的隐私政策。</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >对于重大变更，我们还会提供更为显著的通知（包括对于某些服务，我们会通过电子邮件或站内信形式或公告形式发送通知，说明本政策的具体变更内容）。因此，请随时查看和了解本政策内容。如果第三方开发者和/或终端用户不同意接受更新后的隐私政策声明，请停止接入和使用我们的服务。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"><br /></span
+          ></strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong><span style="font-size: 18px">九、如何联系我们</span></strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >我们设立了专门的个人信息保护团队和个人信息保护负责人，如果第三方开发者和/或终端用户对本政策或个人信息保护相关事宜有任何疑问或投诉、建议时，可以通过以下方式与我们联系：&nbsp;</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >（i）通过客服咨询（400-622-1776） 或者&nbsp;</span
+          ><a
+            href="https://console.easemob.com/user/login"
+            style="font-size: 14px"
+            >登录环信后台</a
+          >&nbsp;<span style="font-size: 14px"
+            >与我们联系进行在线咨询；&nbsp;</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >（ii）发送邮件至 support@easemob.com
+            。我们将尽快审核所涉问题，并在验证身份后的15个工作日或法律法规规定的期限内予以反馈。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >若您是终端用户，我们将及时将您的请求转达相应的开发者，并由开发者回复您并进行处理。我们仅在开发者明确授权的情况下才会直接回复您并根据开发者的指令进行处理。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 18px"><br /></span
+          ></strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong><span style="font-size: 18px">十、其它</span></strong>
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <strong
+            ><span style="font-size: 14px"
+              >我们请第三方开发者特别注意：当第三方开发者进行个人信息的处理活动，如果符合以下任何一项条件，请第三方开发者注意同时遵守《欧盟通用数据保护条例》（General
+              Data Protection Regulation，以下简称“GDPR”）：</span
+            ></strong
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >第三方开发者在欧盟经济区域（“EEA”），无论该处理活动是否在欧盟进行。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >向在 EEA 的个人提供商品或服务（不论是否有偿），或者监视其在 EEA
+            内的行为。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >不在 EEA 内，但根据国际公法适用欧盟成员国法律（例如 EEA
+            成员国的使馆或领事馆）。</span
+          >
+        </p>
+        <p style="text-wrap-mode: wrap; line-height: 1.75em">
+          <span style="font-size: 14px"
+            >如果第三方开发者和/或终端用户来自EEA，我们收集和使用上述个人信息的法律依据将取决于相关个人信息以及我们收集信息的具体背景。
+            对于EEA中的第三方开发者和/或终端用户，有权根据适用的数据保护法律向主管数据保护机构投诉或向具有管辖权的法院提起诉讼。
+            如果第三方开发者和/或终端用户对我们收集和使用个人信息的法律依据有疑问或需要进一步信息的，请根据本政策<strong>第九条</strong>&nbsp;所述方式与我们联系。</span
+          >
+        </p>
+        <p>
+          <span style="font-size: 14px"><br /></span>
+        </p>
+        <p><br /></p>
+      </div>
+
+      <div div id="en-content" class="content" style="display: none">
+        <p style="text-align: center">
+          <strong
+            ><span style="font-size: 24px">User Privacy Agreement</span></strong
+          >
+        </p>
+        <p><br /></p>
+        <p style="text-align: right">
+          <span style="font-size: 14px"
+            >Effective Date:
+            <span
+              style="
+                color: rgb(51, 51, 51);
+                font-family: Arial, sans-serif;
+                font-size: 13px;
+                text-wrap-mode: wrap;
+                background-color: rgb(255, 255, 255);
+              "
+              >Nov.1st</span
+            >, 2024</span
+          >
+        </p>
+        <p style="text-align: right">
+          <span style="font-size: 14px"
+            >Last Updated:
+            <span
+              style="
+                color: rgb(51, 51, 51);
+                font-family: Arial, sans-serif;
+                font-size: 13px;
+                text-wrap-mode: wrap;
+                background-color: rgb(255, 255, 255);
+              "
+              >Nov.1st</span
+            >, 2024</span
+          >
+        </p>
+        <p><br /></p>
+        <h1
+          style="
+            box-sizing: border-box;
+            font-size: 22px;
+            margin: 0px 0px 8px;
+            line-height: 32px;
+            color: rgb(79, 79, 79);
+          "
+        >
+          Easemob IM SDK Privacy Policy Statement
+        </h1>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          In order to better protect your relevant rights, it is recommended
+          that you carefully read this Easemob IM SDK Privacy Policy Statement
+          (hereinafter referred to as “this Policy”). If you have any questions
+          or suggestions about the content of this Policy, you can contact us
+          through the contact information published in “Contact Us” in this
+          Policy. Easemob strictly abides by laws and regulations and protects
+          the personal information of third-party developers and their end users
+          in accordance with established security and privacy standards in the
+          industry.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Easemob IM SDK is a public cloud product provided by Beijing Easemob
+          Technology Co, Ltd. (hereinafter referred to as “We”). Easemob IM SDK
+          product provides the SDK and API capabilities. Since the current
+          relevant laws, regulations, policies and standards mainly provide
+          relevant guidance for the application of SDK products, the following
+          contents are provided in the SDK perspective. If you are a third-party
+          developer who integrates and calls API capabilities, the content in
+          this guide also applies to you.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >The “Easemob IM SDK Privacy Policy Statement” mainly explains to
+            third-party developers and their end users how we handle personal
+            information (includes “collection, storage, use, processing,
+            transmission, provision, disclosure, etc.”). Before registering,
+            accessing, and using the Easemob IM SDK (hereinafter referred to as
+            “this SDK”) products and/or services, third-party developers and end
+            users must read this statement carefully.</span
+          >&nbsp;In the aforementioned scenarios, developers, as personal
+          information processors, decide the purpose and method of processing
+          end-user data. We, as the trustee of personal information processing,
+          only collect data on behalf of developers and process data according
+          to the entrustment and instructions of developers when developers
+          implement relevant SDK-specific business functions. We highlight
+          personal sensitive information in bold format for emphasis. If you
+          have any questions, comments or suggestions on the content of this
+          policy, you can contact us at any time in ways stated in Article 9 of
+          this Policy.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >Special notes for developers</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          If you are a developer, please:
+        </p>
+        <ol
+          style="
+            box-sizing: border-box;
+            margin-bottom: 24px;
+            padding: 0px;
+            overflow: auto hidden;
+          "
+          class="list-paddingleft-2"
+        >
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Please make sure you fully understand and agree to this Policy
+              before integrating the SDK products. If you disagree with any
+              content of this Policy, you should immediately stop accessing and
+              using the SDK products.
+            </p>
+          </li>
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Integrate SDK products and process end-user personal information
+              only after gaining the end-user’s consent.
+            </p>
+          </li>
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Collect, use and process the personal information of end users in
+              accordance of laws and regulations, including but not limited to
+              formulating and publishing privacy policies on the protection of
+              personal information, providing end users with a user rights
+              implementation mechanism that is easy to operate and meets the
+              requirements of laws and regulations, and informing end users how
+              to view, copy, modify, delete personal information, withdraw
+              consent, and restrict the processing of personal information,
+              transfer personal information, obtain copies of personal
+              information, and cancel accounts.
+            </p>
+          </li>
+        </ol>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >Special notes for end users</span
+          >
+        </p>
+        <ol
+          style="
+            box-sizing: border-box;
+            margin-bottom: 24px;
+            padding: 0px;
+            overflow: auto hidden;
+          "
+          class="list-paddingleft-2"
+        >
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              This policy does not replace the privacy policy of the developer’s
+              application.
+            </p>
+          </li>
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Developers should disclose their privacy policies to you for their
+              apps to explain how they collect, process and protect your
+              personal information.
+            </p>
+          </li>
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              If you seek access to data, or attempt to correct, modify or
+              delete incorrect data, or you do not want to continue using an
+              application that integrates an SDK product, please contact the
+              corresponding developer (personal information processor) directly.
+            </p>
+          </li>
+        </ol>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >This policy will help you understand the following:</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          I. Personal information collected and how to use the information
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          II. Authorization and consent for third-party end users
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          III. How to share, transfer, and publicly disclose personal
+          information of third-party developers and/or end users
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          IV. How to store personal information of third-party developers and/or
+          end users
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          V. How to protect the personal information security of third-party
+          developers and/or end users
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          VI. How do third-party developers and/or end users manage their
+          personal information
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          VII. How to handle children’s personal information
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          VIII. How to update this privacy policy statement
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          IX. How to contact us
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          X. Others
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >I. What personal information we collect about you and how it is
+            used</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We collect and use the information for the following purposes
+          described in this statement under the principles of lawfulness,
+          legitimacy, and necessity:
+        </p>
+        <ol
+          style="
+            box-sizing: border-box;
+            margin-bottom: 24px;
+            padding: 0px;
+            overflow: auto hidden;
+          "
+          class="list-paddingleft-2"
+        >
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Personal information provided by third-party developers and/or end
+              users or collected directly by us;
+            </p>
+          </li>
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Personal information generated by third-party end users when using
+              the SDK products and/or services;
+            </p>
+          </li>
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Personal information of third-party developers and/or end users
+              obtained from third-party developers or other third parties.
+            </p>
+          </li>
+        </ol>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We usually collect personal information after obtaining the consent of
+          third-party developers. Before obtaining the consent of end users,
+          third-party developers should not collect any personal information of
+          end users and should not enable this SDK product and/or related
+          services unless otherwise permitted by laws and regulations. We will
+          specify the purpose of collecting personal information in this
+          statement. If we want to use the collected personal information for
+          other purposes not specified in this statement, we will inform the
+          third-party developer in a reasonable manner and obtain the consent of
+          the third-party developer again before use.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >1. Personal information provided by third-party developers and/or
+            end users or collected directly by us</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          In order to realize the business functions of this SDK, we may need to
+          collect relevant personal information from third-party developers
+          and/or end users. The following will list in detail the business
+          functions of this SDK and the personal information that needs to be
+          collected to realize the functions.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >Basic functions</span
+          >&nbsp;: The basic function of this SDK is to provide developers with
+          stable instant messaging services, including login, conversation,
+          friend relationship, one-to-one chat, group chat, chat room, push, and
+          other basic services.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >Extended functions</span
+          >: In addition to the basic functions, this SDK also provides
+          additional extended functions, such as text message translation,
+          content moderation, and other functions.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Necessary personal information to be collected:
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          The personal information that must be collected to achieve both basic
+          and extended functions is as follows:
+        </p>
+        <table width="662">
+          <thead style="box-sizing: border-box">
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+              "
+              class="firstRow"
+            >
+              <th
+                style="
+                  box-sizing: border-box;
+                  border-top-color: rgb(221, 221, 221);
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  background-color: rgb(239, 243, 245);
+                  word-break: normal !important;
+                "
+              >
+                <span style="box-sizing: border-box"
+                  >Specific information collected</span
+                >
+              </th>
+              <th
+                style="
+                  box-sizing: border-box;
+                  border-top-color: rgb(221, 221, 221);
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  background-color: rgb(239, 243, 245);
+                  word-break: normal !important;
+                "
+              >
+                <span style="box-sizing: border-box"
+                  >Purpose of collection</span
+                >
+              </th>
+              <th
+                style="
+                  box-sizing: border-box;
+                  border-top-color: rgb(221, 221, 221);
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  background-color: rgb(239, 243, 245);
+                  word-break: normal !important;
+                "
+              >
+                <span style="box-sizing: border-box">platform</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody style="box-sizing: border-box; border: 0px">
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Device identification code (APNS Token)
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                To provide message delivery, multi-terminal message
+                synchronization, and message roaming functions, and to prevent
+                security risks and accurately identify violations of laws and
+                regulations
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                iOS
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+                background-color: rgb(247, 247, 247);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Bundle ID
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                To protect your account security, ensure that the IM service is
+                only used in applications authorized by you.
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                iOS
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                The application package name, application version number, and
+                installation path of the application
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android, HarmonyOS
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                <br />
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+                background-color: rgb(247, 247, 247);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Device type, device name and model, operating system (version
+                information), network connection type and status, IP address
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Accurately judge the operating environment, optimize network
+                scheduling, ensure normal service operation, and facilitate
+                troubleshooting of problems that arise during communication
+                service operation
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android, iOS, HarmonyOS
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Optional information:
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          To implement the push service, we will embed the message push SDK of
+          third-party mobile phone manufacturers in SDK products. For
+          information about third-party SDKs, please refer to&nbsp;<a
+            href="https://www.easemob.com/importsdklist"
+            style="
+              box-sizing: border-box;
+              background-color: transparent;
+              color: rgb(78, 161, 219);
+              text-decoration-line: none;
+            "
+            >the list of third-party SDKs connected to Easemob IM SDK</a
+          >.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >2. Personal information of third-party developers and/or end users
+            that we obtain from third parties</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We may indirectly obtain personal information of third-party
+          developers and/or end users from third parties (our partners)
+          authorized by third-party developers. The personal information
+          obtained is the minimum amount required to realize the necessary
+          functions of this SDK product and/or service.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >We will require third parties to make commitments on the legitimacy
+            of the sources of personal information before collecting such
+            information. For example, when processing personal information based
+            on the consent of end users, we will require third parties to inform
+            developers and/or end users of the purpose and information of
+            sharing, and collect personal information after obtaining the
+            consent of developers and/or end users in accordance with the law,
+            ensuring that sharing is performed within the scope of the
+            authorized consent for the processing of personal information.</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          If a third party violates any legal or regulatory requirements or
+          agreements, we will immediately stop collecting information from that
+          party, stop cooperating with that party, and take appropriate remedial
+          measures to minimize losses. At the same time, we will protect
+          indirectly obtained personal information with a level of protection no
+          less than that of our own users’ personal information. When indirectly
+          obtaining sensitive personal information, we will adopt more stringent
+          security measures (such as transmission encryption, etc.).
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >3. Application for relevant system permissions</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Depending on the scope of the SDK service plan used by developers and
+          end users, we may apply for the use of end users’ system permissions
+          when third-party developers use the SDK. Please see the following for
+          specific usage scenarios. The specific permissions applied for and the
+          purpose of the application are as follows:
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          System Permission Application Form
+        </p>
+        <table width="662">
+          <thead style="box-sizing: border-box">
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+              "
+              class="firstRow"
+            >
+              <th
+                style="
+                  box-sizing: border-box;
+                  border-top-color: rgb(221, 221, 221);
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  background-color: rgb(239, 243, 245);
+                  word-break: normal !important;
+                "
+              >
+                <span style="box-sizing: border-box">Permission name</span>
+              </th>
+              <th
+                style="
+                  box-sizing: border-box;
+                  border-top-color: rgb(221, 221, 221);
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  background-color: rgb(239, 243, 245);
+                  word-break: normal !important;
+                "
+              >
+                <span style="box-sizing: border-box"
+                  >Purpose of collection</span
+                >
+              </th>
+              <th
+                style="
+                  box-sizing: border-box;
+                  border-top-color: rgb(221, 221, 221);
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  background-color: rgb(239, 243, 245);
+                  word-break: normal !important;
+                "
+              >
+                <span style="box-sizing: border-box">platform</span>
+              </th>
+              <th
+                style="
+                  box-sizing: border-box;
+                  border-top-color: rgb(221, 221, 221);
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  background-color: rgb(239, 243, 245);
+                  word-break: normal !important;
+                "
+              >
+                <span style="box-sizing: border-box">Required or not</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody style="box-sizing: border-box; border: 0px">
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Network connection status (ACCESS_NETWORK_STATE)
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Determine the network connection status and whether the network
+                is available
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Required permissions
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+                background-color: rgb(247, 247, 247);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Wi-Fi network status (ACCESS_Wi-Fi_STATE and CHANGE_Wi-Fi_STATE)
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Determine the network connection status and whether the network
+                is available
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Required permissions
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Access to the Internet (INTERNET)
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Determine whether the network is connected to ensure the normal
+                operation of the SDK function
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android, iOS, HarmonyOS
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Required permissions
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+                background-color: rgb(247, 247, 247);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Get network information (GET_NETWORK_INFO)
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Determine the network connection status and whether the network
+                is available
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                HarmonyOS
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Required permissions
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Device storage (WRITE_EXTERNAL_STORAGE)
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Provides the function of sending local file messages
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Required permissions
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+                background-color: rgb(247, 247, 247);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Device storage (READ_EXTERNAL_STORAGE)
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Provides the function of sending local file messages
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Required permissions
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Location information
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Provides the function of sending location messages
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android, iOS, HarmonyOS
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Non-essential permissions
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+                background-color: rgb(247, 247, 247);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                CAMERA
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Provides the function of taking photos and sending picture
+                messages
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Non-essential permissions
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Microphone (RECORD_AUDIO)
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Provides the function of sending audio messages
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Android
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Non-essential permissions
+              </td>
+            </tr>
+            <tr
+              style="
+                box-sizing: border-box;
+                border-width: 1px 0px 0px;
+                border-right-style: initial;
+                border-bottom-style: initial;
+                border-left-style: initial;
+                border-right-color: initial;
+                border-bottom-color: initial;
+                border-left-color: initial;
+                border-image: initial;
+                border-top-style: solid;
+                border-top-color: rgb(221, 221, 221);
+                background-color: rgb(247, 247, 247);
+              "
+            >
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Device storage (STORE_PERSISTENT_DATA)
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Persistently store the data required for the operation of the
+                business system
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                HarmonyOS
+              </td>
+              <td
+                style="
+                  box-sizing: border-box;
+                  padding: 8px;
+                  font-size: 14px;
+                  color: rgb(79, 79, 79);
+                  line-height: 22px;
+                  vertical-align: middle;
+                  word-break: normal !important;
+                "
+              >
+                Non-essential permissions
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Note: When the end user closes the permissions, it means that they
+          cancel these authorizations. We will no longer continue to collect and
+          use the corresponding personal information, and we will not be able to
+          provide the end user with the above-mentioned functions corresponding
+          to these authorizations.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >4. In the following circumstances, we use personal information of
+            end users without the need to obtain the authorization or consent of
+            third-party developers:</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (1) Necessary for the conclusion and performance of a contract;
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (2) Necessary for the performance of statutory duties or obligations;
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (3) It is necessary to respond to public health emergencies or to
+          protect the life, health and property safety of natural persons in an
+          emergency;
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (4) Carry out news reporting, public opinion supervision and other
+          activities for the public interest and process personal information
+          within a reasonable scope;
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (5) Process personal information that an individual has disclosed on
+          his/her own or that has been legally disclosed within a reasonable
+          scope in accordance with the provisions of the Personal Information
+          Protection Act;
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (6) Other circumstances stipulated by laws, administrative
+          regulations.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Note: If the information we collect cannot be used to identify the
+          personal identity of third-party developers and/or end users alone or
+          in combination with other information, it does not constitute personal
+          information in the legal sense.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >5. Rules for the use of personal information</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (1) We will process the collected personal information in accordance
+          with this statement and/or the contractual agreement with the
+          third-party developer and only for the purpose of realizing the
+          functions of this SDK product and/or service. If the collected
+          personal information needs to be used for other purposes, we will
+          inform the third-party developer and/or end user in a reasonable
+          manner, and use it after the third-party developer obtains the consent
+          of the end user and/or obtains the consent of the end user separately.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (2) After the SDK products and/or services we provide to third-party
+          developers cease operations, or after the third-party developers
+          and/or end users withdraw their authorization for personal
+          information, or after the third-party developers and/or end users
+          cancel their accounts, we will destroy or anonymize all personal
+          information received from third-party developers and/or end users
+          within a reasonable time, unless otherwise provided by law.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >II. Authorization and Consent of Third-Party End Users</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Third-party developers integrate this SDK product and/or service into
+          their third parties. In order to provide this SDK product and/or
+          service to end users, we will collect, store and process personal
+          information from third-party developers and/or end users in a legal
+          and compliant manner.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >Before using this SDK, developers should carefully read the
+            relevant service agreements, this Policy and the third-party
+            developer compliance guide (or similar legal documents of the same
+            nature) published on our official website, and conduct compliance
+            self-inspections based on the collection and use of personal
+            information by your products. Before obtaining the consent of the
+            end user, unless otherwise permitted by laws and regulations,
+            developers should not collect any personal information of the end
+            user and should not enable this SDK product and/or related services.
+            Please note that the premise for us to provide you with this SDK
+            product and/or service is:</span
+          >
+        </p>
+        <ol
+          style="
+            box-sizing: border-box;
+            margin-bottom: 24px;
+            padding: 0px;
+            overflow: auto hidden;
+          "
+          class="list-paddingleft-2"
+        >
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Third-party developers have complied with and will continue to
+              comply with applicable laws, regulations and supervisory
+              requirements to collect, use and process the personal information
+              of third-party end users, including but not limited to formulating
+              and publishing relevant personal information protection statements
+              or privacy policies;
+            </p>
+          </li>
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              The third-party developer has&nbsp;<span
+                style="box-sizing: border-box; font-weight: 700"
+                >informed</span
+              >&nbsp;the third-party end-users and&nbsp;<span
+                style="box-sizing: border-box; font-weight: 700"
+                >has obtained sufficient, necessary and clear authorization,
+                consent and permission from the end-users in accordance with the
+                law</span
+              >, especially&nbsp;<span
+                style="box-sizing: border-box; font-weight: 700"
+                >the express, separate consent and permission when sensitive
+                personal information is involved</span
+              >&nbsp;(if your product is designed and developed for children
+              under the age of fourteen, you should have taken necessary
+              technical measures to ensure that the consent of their parents or
+              other guardians has been obtained). For the purpose of providing
+              this SDK product and/or service and corresponding to the
+              third-party functions, we will collect and share and how to use
+              (including allowing us to collect and process in accordance with
+              the provisions of this Statement) the personal information of
+              third-party end-users;
+            </p>
+          </li>
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Unless otherwise provided by applicable laws, third-party
+              developers have informed end users and obtained&nbsp;<span
+                style="box-sizing: border-box; font-weight: 700"
+                >sufficient and necessary authorization, consent and permission
+                from end users in accordance with the law, allowing us to
+                de-identify the personal information that has been collected,
+                and, subject to compliance with relevant laws and regulations,
+                may use the collected and processed information for the purposes
+                listed in Article 1 of this Statement;</span
+              >
+            </p>
+          </li>
+          <li>
+            <p
+              style="
+                box-sizing: border-box;
+                margin-top: 0px;
+                margin-bottom: 16px;
+                color: rgb(77, 77, 77);
+                line-height: 26px;
+                overflow: auto hidden;
+              "
+            >
+              Third-party developers have provided end users with an
+              easy-to-operate mechanism for implementing user rights, and
+              explained how and when end users can exercise their rights of
+              choice, how to access and correct their personal information, as
+              well as exercise the right to delete and change the scope of their
+              authorization consent.
+            </p>
+          </li>
+        </ol>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >III. How to share, transfer, and publicly disclose personal
+            information of third-party developers and/or end users</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >1. Sharing</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We may disclose your personal information to our affiliates as
+          necessary to achieve the purposes mentioned in Article 1 of this
+          Policy. “Affiliates” refers to any other entity that directly or
+          indirectly controls us, is controlled by us, or is under common
+          control with us.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We will strictly restrict third parties involved in data processing in
+          accordance with laws and regulations, and require them to strictly
+          comply with our measures and requirements for personal information
+          protection. Except as stated in this policy or otherwise specified
+          when collecting information about end users, we will not share end
+          user information with third parties without the explicit consent of
+          third-party developers.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >2. Transfer</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >We will not transfer the personal information of third-party
+            developers and/or end users to any company, organization or
+            individual, except in the following circumstances:</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (1) Obtain separate consent from third-party developers and/or end
+          users in advance;
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (2) If personal information needs to be transferred due to merger,
+          division, dissolution, bankruptcy, etc., we will inform the developer
+          and/or end user of the name or name and contact information of the
+          recipient and require the recipient to continue to perform the
+          obligations of the personal information processor. If the recipient
+          changes the original processing purpose or processing method, we will
+          require the recipient to obtain the consent of the developer and/or
+          end user again.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (3) If personal information is transferred, we will require the new
+          company or organization that holds your personal information to
+          continue to be bound by this policy, otherwise we will require the
+          company or organization to re-ask for your authorization and consent.
+          If the recipient changes the original processing purpose or processing
+          method, we will require the recipient to re-obtain the consent of the
+          end user.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >3. Public Disclosure</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >We will not publicly disclose personal information of third-party
+            developers and/or end users unless:</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (1) After obtaining separate consent from third-party developers
+          and/or end users;
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (2) When required by laws, regulations, legal procedures, litigation
+          or government authorities.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >IV. How to store personal information of third-party developers
+            and/or end users</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >1. Storage method and period</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We will store information of third-party developers and/or end users
+          in a secure manner, including local storage, databases, and server
+          logs.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          In general, we will only store the personal information of third-party
+          developers and/or end users&nbsp;<span
+            style="box-sizing: border-box; font-weight: 700"
+            >for the shortest period of time necessary</span
+          >&nbsp;to achieve the purposes described in this Policy or within the
+          conditions/scope required by laws and regulations or otherwise
+          authorized by the personal information subject. However, in the
+          following circumstances, and only for the purposes related to the
+          following circumstances, we may need to retain the personal
+          information of third-party developers and/or end users for a longer
+          period of time: (1) Comply with applicable laws and regulations and
+          other relevant provisions; (2) Comply with court judgments, rulings or
+          other legal procedures; (3) Comply with the requirements of relevant
+          government agencies or other competent authorities; (4) Purposes that
+          are reasonably necessary to implement relevant service agreements or
+          this statement, safeguard the public interest, handle
+          complaints/disputes, and protect the personal and property safety or
+          legitimate rights and interests of our customers, us or our
+          affiliates, other users or employees.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >2. Storage Region</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We will store personal information collected&nbsp;<span
+            style="box-sizing: border-box; font-weight: 700"
+            >within China in accordance with laws and regulations.</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          At present, we do not transfer or store the personal information of
+          third-party developers and/or end users across borders. If
+          cross-border transfer or storage is required in the future, we will
+          inform the developer and/or end user of the purpose, recipient,
+          security measures and security risks of the personal information
+          transfer, obtain the consent of the developer and/or the separate
+          consent of the end user, and meet other conditions stipulated by laws
+          and regulations.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >V. How to protect the personal information security of third-party
+            developers and/or end users</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >1. Security protection measures</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We have used industry-standard security measures to protect personal
+          information provided by third-party developers and/or end users to
+          prevent unauthorized access, public disclosure, use, modification,
+          damage, leakage or loss of data.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We use industry-leading technical protection measures. The technical
+          means we use include but are not limited to firewalls, encryption
+          (such as SSL), de-identification or anonymization, access control
+          measures, etc. In addition, we will continue to strengthen the
+          security capabilities of integrating SDKs into third parties.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We have established management systems, processes and organizations
+          specifically to protect the security of personal information. We will
+          also review such management systems, processes and organizations to
+          prevent unauthorized persons from accessing, using or disclosing user
+          information.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >2. Security incident handling measures</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          If a security incident such as leakage, damage, or loss of personal
+          information occurs, we will activate the emergency plan to prevent the
+          security incident from expanding. After a security incident occurs, we
+          will promptly inform third-party developers and/or end users of the
+          basic situation of the security incident, the disposal measures and
+          remedial measures we will or have taken, and our response suggestions
+          to third-party developers and/or end users in the form of push
+          notifications, emails, etc.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >VI. How do third-party developers and/or end users manage their
+            personal information?</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We attach great importance to the management of personal information
+          by third-party developers and/or end users, and do our best to provide
+          relevant rights such as access, copy, modify, delete, withdraw
+          consent, cancel accounts, file complaints, and set privacy functions
+          for personal information, so that third-party developers and/or end
+          users can protect their own privacy and information security.
+        </p>
+        <ol
+          style="
+            box-sizing: border-box;
+            margin-bottom: 24px;
+            padding: 0px;
+            overflow: auto hidden;
+          "
+          class="list-paddingleft-2"
+        >
+          <li><p>For third-party developers</p></li>
+        </ol>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (1) Third-party developers should provide and clearly define ways for
+          end users to view, copy, modify, delete personal information, withdraw
+          consent, transfer personal information, restrict the processing of
+          personal information, obtain copies of personal information, and
+          cancel their accounts.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (2) During the use of this SDK by third-party developers, if the end
+          user makes a request to exercise rights related to personal
+          information according to the agreement between the third-party
+          developer and us, and the third-party developer has determined that
+          such exercise request involves the personal information provided by
+          the third-party developer to this SDK, please contact us in a timely
+          manner through the methods described in Article 9 of this Policy and
+          attach the necessary written credentials. We will verify the relevant
+          credentials in a timely manner and provide corresponding support and
+          cooperation to third-party developers in accordance with relevant laws
+          and regulations, as well as the rules clearly stated in legal texts
+          such as this Policy.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (3) If a third-party developer wishes to cancel the SDK service, they
+          can contact us in the manner described in Article 9 of this Policy to
+          cancel the service. We will take reasonable steps to cancel the
+          account, and we will delete personal information in accordance with
+          the requirements of laws and regulations. Unless we need to preserve
+          such information for legal reasons, we will process it only within the
+          scope prescribed by laws and regulations and will not use it in daily
+          business activities.&nbsp;<span
+            style="box-sizing: border-box; font-weight: 700"
+            >Please be aware that once the third-party developer account is
+            cancelled, it cannot be restored, so please proceed with caution.
+            Before canceling the account, please make sure that all services
+            related to the third-party developer account have been properly
+            handled.</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >2. For third-party end users</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >Since third-party end users are not our direct users, we
+            recommend:</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          End users have the right to view, copy, modify, delete, and withdraw
+          consent to their personal information. If you wish to exercise the
+          above rights, since you are not our direct user, we, as the trustee of
+          personal information processing, will process your personal
+          information in accordance with our agreement with the third-party
+          developer and the instructions of the third-party developer, and will
+          directly send requests related to the end user’s personal information
+          to the third-party developer, asking it to process and/or seek help.
+          As a personal information processor, the developer is responsible for
+          processing your personal information and is obliged to disclose to you
+          how to process and protect your personal information. You should seek
+          to exercise the rights of the personal information subject from the
+          developer.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >VII. How to handle children’s personal information</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >The third-party developer should make sure that users are 14 years
+            old or above. Please understand and be aware that if the third party
+            is serving child users, please ensure that the guardian of the
+            third-party end user (child) has read and agreed to the third-party
+            privacy policy, and provide the child’s personal information to us
+            after their separate consent, so as to implement the relevant
+            functions described in the third-party developer’s privacy
+            policy.</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          If in this scenario, you as a parent or guardian of a child believe
+          that the third-party developer has collected children’s information
+          through our SDK products without your consent, please contact the
+          third-party developer as soon as possible to delete it. We will assist
+          in deleting the relevant data as soon as possible after verifying the
+          situation based on the third-party developer’s request.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >VIII. How to update this privacy policy statement</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          In order to provide better services to third-party developers and as
+          the products and/or services of this platform continue to develop and
+          change, we may revise this policy from time to time.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >When the terms of this policy change, we will provide reminders
+            through pop-up windows, in-site messages, website announcements,
+            etc, and indicate the effective date when the version is updated. In
+            addition, if the updated policy affects the rights of third-party
+            end users, third-party developers will also need to update their
+            privacy policies in a timely manner.</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          For major changes, we will also provide more prominent notices
+          (including for certain services, we will send notices via email or
+          in-site mail or announcements to explain the specific changes to this
+          policy). Therefore, please check and understand the content of this
+          Policy at any time. If third-party developers and/or end users do not
+          agree to accept the updated privacy policy statement, please stop
+          accessing and using our services.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >IX. How to contact us</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          We have established a dedicated personal information protection team
+          and a personal information protection officer. If third-party
+          developers and/or end users have any questions, complaints or
+          suggestions regarding this policy or matters related to personal
+          information protection, they can contact us in the following ways:
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (i) Contact us through customer service (400-622-1776) or&nbsp;<a
+            href="https://console.easemob.com/user/login"
+            style="
+              box-sizing: border-box;
+              background-color: transparent;
+              color: rgb(78, 161, 219);
+              text-decoration-line: none;
+            "
+            >log in to the Easemob Console</a
+          >&nbsp;to conduct online consultation;
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          (ii) Send an email to support@easemob.com. We will review the issue as
+          soon as possible and provide feedback within 15 working days after
+          identity verification or within the period prescribed by laws and
+          regulations.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          If you are an end user, we will promptly forward your request to the
+          corresponding developer, who will respond to you and process it. We
+          will only respond directly to you and process it according to the
+          developer’s instructions if the developer explicitly authorizes us to
+          do so.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >X. Others</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          <span style="box-sizing: border-box; font-weight: 700"
+            >We ask third-party developers to pay special attention: When
+            third-party developers process personal information, if any of the
+            following conditions are met, please pay attention to comply with
+            the EU General Data Protection Regulation (hereinafter referred to
+            as “GDPR”):</span
+          >
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Third Party Developers in the European Economic Area (“EEA”),
+          regardless of whether the processing activities take place in the EU.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Offer goods or services (whether paid or unpaid) to individuals in the
+          EEA, or monitor their behaviour within the EEA.
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          Not in the EEA, but subject to European Union Law according to the
+          International Law (e.g. an embassy or consulate of an EEA Member
+          State).
+        </p>
+        <p
+          style="
+            box-sizing: border-box;
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: rgb(77, 77, 77);
+            line-height: 26px;
+            overflow: auto hidden;
+          "
+        >
+          If the third-party developer and/or end user is from the EEA, our
+          legal basis for collecting and using the above personal information
+          will depend on the relevant personal information and the specific
+          context in which we collect it. For third-party developers and/or end
+          users in the EEA, they have the right to complain to the competent
+          data protection authority or bring an action in a court with
+          jurisdiction under applicable data protection laws. If third-party
+          developers and/or end users have questions about the legal basis for
+          our collection and use of personal information or need further
+          information, please contact us in accordance with the methods
+          described in&nbsp;<span
+            style="box-sizing: border-box; font-weight: 700"
+            >Article 9</span
+          >&nbsp;of this Policy.
+        </p>
+        <p><br /></p>
+      </div>
+    </div>
+
+    <script>
+      document.querySelectorAll('.lang-switch-item').forEach((item) => {
+        item.addEventListener('click', function (e) {
+          const activeLang = document.querySelector('.lang-switch-item.active')
+          const lang = activeLang.innerText
+          if (lang === 'English') {
+            document.getElementById('en-content').style.display = 'none'
+            document.getElementById('cn-content').style.display = 'block'
+          } else {
+            document.getElementById('cn-content').style.display = 'none'
+            document.getElementById('en-content').style.display = 'block'
+          }
+          activeLang.classList.remove('active')
+          e.target.parentNode.classList.add('active')
+        })
+      })
+    </script>
+  </body>
+</html>

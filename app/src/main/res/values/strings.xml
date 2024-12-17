@@ -1,0 +1,204 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Easemob</string>
+
+    <string name="em_conversation_menu_video">Voice and video conference</string>
+    <string name="em_conversation_menu_group">Create group</string>
+
+    <string name="system_copy_success">Successfully copied to clipboard</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="loading">Loading&#8230;</string>
+
+    <string name="splash_title">Easemob IM</string>
+    <string name="splash_powered">Powered by Easemob</string>
+    <string name="splash_not_appkey">Please set up the app key first.</string>
+    <string name="splash_not_init">Please initialize the Chat SDK first.</string>
+
+    <string name="em_login_btn_info_incomplete">Username or password cannot be empty.</string>
+    <string name="em_login_failed">Login failed</string>
+    <string name="em_login_agreement">By joining, you agree to our Terms of Service and Privacy Policy</string>
+    <string name="em_login_im">Easemob IM</string>
+    <string name="em_login_input_verification_code">Verification Code</string>
+    <string name="em_login_get_verification_code">Get Code</string>
+    <string name="em_login_phone_empty">Please enter mobile number</string>
+    <string name="em_login_code_empty">Please enter verification code</string>
+    <string name="em_login_phone_illegal">Please enter correct mobile number</string>
+    <string name="em_login_illegal_code">Incorrect Code</string>
+    <string name="em_login_post_code">Code Sent</string>
+    <string name="em_login_get_code_again">Get Code</string>
+    <string name="em_login_get_code_again_time">Get After(%1$ds)</string>
+    <string name="em_login_not_select_agreement">Please confirm Terms &amp; Policy</string>
+    <string name="em_login_error_send_code_later">Please wait a moment while trying to send</string>
+    <string name="em_login_error_send_code_limit">Access limit reached</string>
+    <string name="em_login_server_configure"><u>Server Configure</u></string>
+    <string name="demo_login_dialog_content">Easemob attaches great importance to protecting your privacy. Please read the following Service and Privacy Policy carefully. Please click "OK" button to agree, and click "Deny" to exit the app.</string>
+    <string name="demo_login_dialog_content_privacy">Read the complete Service and Privacy Policy for more details.</string>
+    <string name="demo_login_dialog_cancel">Deny</string>
+    <string name="demo_login_dialog_confirm">OK</string>
+    <string name="demo_login_dialog_title">Service and Privacy Policy</string>
+    <string name="em_login_btn">Log In</string>
+    <string name="demo_error_user_authentication_failed">Incorrect username or password</string>
+    <string name="em_login_name_hint">Username</string>
+    <string name="em_login_password_hint">Password</string>
+    <string name="em_login_tv_token">Log in with token</string>
+    <string name="em_login_tv_pwd">Log in with password</string>
+    <string name="em_login_token_hint">Token</string>
+
+    <string name="server_set_title">Server settings</string>
+    <string name="server_set_appkey">Appkey</string>
+    <string name="server_set_apns_cert_name">APNs certificate name</string>
+    <string name="server_set_specify_server">Use private server:</string>
+    <string name="server_set_server_address">IM server address</string>
+    <string name="server_set_server_port">Port</string>
+    <string name="server_set_rest_server_address">RESTful server address</string>
+    <string name="server_set_appkey_empty_hint">Please set an app key</string>
+    <string name="server_set_im_server_empty_hint">Set the IM server address</string>
+    <string name="server_set_im_port_empty_hint">Set the IM port number</string>
+    <string name="server_set_rest_server_empty_hint">Set the RESTful server address</string>
+    <string name="server_open_develop_mode">Open develop mode?</string>
+    <string name="server_close_develop_mode">Close develop mode?</string>
+    <string name="server_set_menu_save">Save</string>
+    <string name="server_set_illegal_appkey" translatable="false">You set a illegal appkey</string>
+    <string name="server_set_dialog_title">Reset App</string>
+    <string name="server_set_dialog_content">The current server settings need to be restarted to take effect.Confirm restart?</string>
+    <string name="server_set_dialog_confirm_button_text">Reset</string>
+
+    <string name="em_main_title_home">Chat</string>
+    <string name="em_main_title_friends">Contacts</string>
+    <string name="em_main_title_me">Me</string>
+
+    <string name="menu_voice_call">Voice</string>
+    <string name="menu_video_call">Video</string>
+    <string name="menu_member_call">Call(%1$d)</string>
+
+    <string name="register_phone_number">Phone number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="localLogin">Internal Login</string>
+
+    <string name="em_about_me_set">Switch modes</string>
+    <string name="logout">Logout</string>
+
+    <string name="em_header_request">New request</string>
+    <string name="em_header_group">Group Chat</string>
+
+    <string name="em_login_out_hint">Log Out?</string>
+    <string name="em_login_cancel_account_title">Account Cancellation</string>
+    <string name="em_login_cancel_account_subtitle">Please note that canceling your account will result in the permanent deletion of all data associated with it.</string>
+
+    <string name="em_main_add_contact_success">Request sent.</string>
+    <string name="em_main_add_contact_not_found">User does not exist</string>
+
+    <string name="message_forward_success">Message forwarded successfully</string>
+    <string name="message_forward_fail">Message forwarding failed</string>
+    <string name="message_modify_fail">Message modifying failed</string>
+    <string name="message_combine_success">Combine Message successfully</string>
+    <string name="message_combine_fail">Combine Message failed</string>
+
+    <string name="presence_status">User Status</string>
+
+    <string name="main_about_me_information">Profile</string>
+    <string name="main_about_me_information_avatar">Avatar</string>
+    <string name="main_about_me_information_nick_name">Nickname</string>
+    <string name="main_about_me_information_camera">Camera</string>
+    <string name="main_about_me_information_picture">Picture</string>
+    <string name="main_about_me_information_edit_picture">Do you need to edit the Image?</string>
+    <string name="main_about_me_information_edit_nick_name">Nickname</string>
+    <string name="main_about_me_information_change_name_count">%1$d/32</string>
+    <string name="main_information_checked_model">Uploading avatars is not supported in this mode</string>
+
+    <string name="main_about_me_currency">General</string>
+    <string name="main_about_me_currency_typing">onTyping</string>
+    <string name="main_about_me_currency_typing_desc">After opening, Let others know when you are typing a message</string>
+    <string name="main_about_me_currency_dark_model">Dark Mode</string>
+    <string name="main_about_me_currency_feature">Advanced Features</string>
+    <string name="currency_feature_translation">Translation</string>
+    <string name="currency_feature_translation_describe">Long press a message to translate it into your preferred language</string>
+    <string name="currency_feature_topic">Thread</string>
+    <string name="currency_feature_topic_describe">Create a thread from a message within the group</string>
+    <string name="currency_feature_reaction">Emoji Reaction</string>
+    <string name="currency_feature_reaction_describe">Long press a message to add emoji reactions</string>
+
+    <string name="currency_feature_message_style">Long press the message menu</string>
+    <string name="currency_feature_extend_style">Send attachment menu</string>
+    <string name="currency_feature_style_num1">Style 1</string>
+    <string name="currency_feature_style_num2">Style 2</string>
+
+    <string name="demo_contact_remark">Remarks</string>
+    <string name="demo_contact_edit_remark">Remarks</string>
+    <string name="demo_contact_remark_count">%1$d/100</string>
+
+    <string name="currency_language">System Language</string>
+    <string name="currency_target_language">Target Language</string>
+    <string name="currency_language_zh_cn">Simplified Chinese</string>
+    <string name="currency_language_en">English</string>
+    <string name="currency_language_confirm">Done</string>
+
+    <string name="main_about_me_notify">Message Notifications</string>
+    <string name="main_about_me_notify_title">Offline Message Push</string>
+    <string name="main_about_me_notify_describe">After turning on, you will no longer receive any message notifications except for messages where you are @mentioned in the group.</string>
+
+    <string name="main_about_me_privacy">Privacy</string>
+
+    <string name="main_about_me_about">About</string>
+    <string name="about_logo">环信 IM</string>
+    <string name="about_version">SDK Version %1$s</string>
+    <string name="about_uikit_version">UIKit Version %1$s</string>
+    <string name="about_official_website">Official Website</string>
+    <string name="about_official_website_url">https://www.easemob.com/</string>
+    <string name="about_official_website_title" tools:ignore="ExtraTranslation">环信 - 中国IM即时通讯服务开创者</string>
+    <string name="about_privacy_policy">Privacy Policy</string>
+    <string name="about_service_hotline">Contact Us</string>
+    <string name="about_service_hotline_tl" tools:ignore="TypographyDashes">400–622-1776</string>
+    <string name="about_business_cooperation">Business Cooperation</string>
+    <string name="about_business_cooperation_email">bd@easemob.com</string>
+    <string name="about_channel_cooperation">Channel Partnership</string>
+    <string name="about_channel_cooperation_email">qudao@easemob.com</string>
+    <string name="about_complaint_suggestions">Easemob Official DEMO Report%1$s</string>
+    <string name="about_complaint_suggestions_email">report@easemob.com</string>
+    <string name="about_report_body">Thank you for your feedback. Please describe the content you would like to report and provide the relevant screenshots.</string>
+
+    <string name="main_about_me_login">Account</string>
+    <string name="main_about_me_setting">Settings</string>
+    <string name="main_about_me_logout">Log Out</string>
+    <string name="main_about_me_id">ID: %1$s</string>
+    <string name="main_about_me_account_cancellation">Account Cancellation</string>
+    <string name="main_account_cancellation">Account cancellation is not supported in this mode</string>
+
+    <!-- callkit -->
+    <string name="call_duration">Call duration: %1$s</string>
+    <string name="video_call">Video Call</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="tips_select_contacts_first">Select a contact first</string>
+    <string name="group_call_title">Select Members</string>
+    <string name="demo_activity_label_video_call">video_call</string>
+    <string name="demo_activity_label_multi_call">multi_call</string>
+
+    <!-- contact detail -->
+    <string name="detail_item_audio">Audio</string>
+    <string name="detail_item_video">Video</string>
+    <string name="demo_add_contact_not_exist">The user does not exist</string>
+    <string name="demo_add_contact_already_exist">The user already exist</string>
+    <string name="demo_contact_added_notify">You have added %1$s as a contact.</string>
+
+    <string name="demo_report_title">Report</string>
+    <string name="demo_select_email">Please select an email application</string>
+    <string name="demo_email_available">No email applications available</string>
+
+    <!--presence-->
+    <string name="uikit_presence_online">Online</string>
+    <string name="uikit_presence_busy">Busy</string>
+    <string name="uikit_presence_do_not_disturb">Do not Disturb</string>
+    <string name="ease_presence_away">Away</string>
+    <string name="uikit_presence_offline">Offline</string>
+    <string name="uikit_presence_custom">Custom Status</string>
+    <string name="ease_presence_status">Status</string>
+    <string name="ease_presence_done">Done</string>
+    <string name="presence_dialog_title">Customize online status</string>
+    <string name="presence_dialog_input_hint">Please enter</string>
+
+    <!--change uikit resources-->
+    <string name="uikit_conv_dialog_add_contact">Search contacts by phone number or ID.</string>
+    <string name="uikit_dialog_edit_input_id_hint">User ID</string>
+
+</resources>
