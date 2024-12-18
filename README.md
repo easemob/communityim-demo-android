@@ -1,3 +1,4 @@
+
 ## 活动介绍
 环信 “社区版IM” 是由环信官方发起，与环友们共同长期维护的即时通讯 IM 开源项目。这个项目以协作和分享为核心，诚邀广大开源爱好者及对即时通讯技术感兴趣的开发者积极参与，深入即时通讯开发实战，共同推进环信社区版 IM 项目的功能优化和生态完善。
 
@@ -6,8 +7,8 @@
 请至 [报名链接](https://www.wjx.top/vm/eazZw6B.aspx) 填写报名信息，添加环信冬冬（huanxin-hh）微信好友，备注“社区版IM”进入活动群。
 
 ### 2、领取任务：
-- 2.1 领取：在任务列表选择感兴趣的开发任务，在页面下方留言想要领取的任务编号。如：领取【x】，领取前请详细阅读该任务详情
-- 2.2 创建：如果任务列表 没有您感兴趣的开发模块，但是有很多idea想要发挥，您可以新建ISSUE申请您想创建的开发任务，将链接回复下方。如：新建【xxxx】
+- 2.1 领取：在 [任务列表](https://github.com/easemob/communityim-demo-android/issues/1) 选择感兴趣的开发任务，在任务页面下方留言想要领取的任务编号。如：领取【x】，领取前请详细阅读该任务详情
+- 2.2 创建：如果 [任务列表](https://github.com/easemob/communityim-demo-android/issues/1) 没有您感兴趣的开发模块，但是有很多idea想要发挥，您可以新建ISSUE申请您想创建的开发任务，将链接回复下方。如：新建【xxxx】
 
 ### 3、需求确认：
 环信官方人员2工作日内联系你，沟通该任务细节，确认您是否领取/创建成功。确认成功后，进入开发阶段。
@@ -39,5 +40,3 @@
 ) 
 - GitHub 仓库：[**Android端**](https://github.com/easemob/communityim-demo-android)  ｜  [**iOS端**](https://github.com/easemob/communityim-demo-ios) 
  欢迎人美心善的你star～
-
-
