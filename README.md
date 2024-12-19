@@ -15,7 +15,8 @@
 *请务必确认领取成功后再开工，以免重复开发。原则上每个任务限最多2人领取。
 
 ### 4、提交Pull Requests
-开发完成后，提交 PR到任务指定的代码仓库，请以 `IM No.xxx` 格式为标题开头，确保你的 PR 包含清晰的代码结构和文档，以便审查（PR review）和合并（PR merge）。
+下载对应端的初始代码库进行开发，[Android](https://github.com/easemob/communityim-demo-android/)  ｜ [ iOS](https://github.com/easemob/communityim-demo-ios/)
+开发完成后，提交PR至对应仓库，请以 `IM No.xxx` 格式为标题开头，确保你的PR包含清晰的代码结构和文档，以便审查（PR review）和合并（PR merge）。
 
 ### 5、完成任务
 任务提交后5工作日内，项目评审组对 PR 进行验收并给出相应反馈：如果该提交符合要求，PR 顺利通过验收评审、 并被合并（PR merge），视为任务完成，该任务关闭，后续不再验收其他提交。  
