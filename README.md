@@ -8,7 +8,7 @@
 
 ### 2、领取任务：
 - 2.1 领取：在 [任务列表](https://github.com/easemob/communityim-demo-android/issues/1) 选择感兴趣的开发任务，在任务页面下方留言想要领取的任务编号。如：领取【x】，领取前请详细阅读该任务详情
-- 2.2 创建：如果 [任务列表](https://github.com/easemob/communityim-demo-android/issues/1) 没有您感兴趣的开发模块，但是有很多idea想要发挥，您可以新建ISSUE申请您想创建的开发任务，将链接回复下方。如：新建【xxxx】
+- 2.2 创建：如果 [任务列表](https://github.com/easemob/communityim-demo-android/issues/1) 没有您感兴趣的开发模块，但是有很多idea想要发挥，您可以新建ISSUE申请您想创建的开发任务，将链接回复任务列表下方。如：新建【xxxx】
 
 ### 3、需求确认：
 环信官方人员2工作日内联系你，沟通该任务细节，确认您是否领取/创建成功。确认成功后，进入开发阶段。
