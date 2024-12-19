@@ -16,6 +16,7 @@
 
 ### 4、提交Pull Requests
 下载对应端的初始代码库进行开发，[Android](https://github.com/easemob/communityim-demo-android/)  ｜ [ iOS](https://github.com/easemob/communityim-demo-ios/)
+
 开发完成后，提交PR至对应仓库，请以 `IM No.xxx` 格式为标题开头，确保你的PR包含清晰的代码结构和文档，以便审查（PR review）和合并（PR merge）。
 
 ### 5、完成任务
