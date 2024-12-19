@@ -27,5 +27,5 @@
 - 联系邮箱：market@easemob.com
 - 环信官方：[https://www.easemob.com/](http://easemob.cn/tsBczJ
 ) 
-- GitHub 仓库：[**Android端**](https://github.com/easemob/communityim-demo-android)  ｜  [**iOS端**](https://github.com/easemob/communityim-demo-ios) 
+- 社区版IM代码库：[**Android端**](https://github.com/easemob/communityim-demo-android)  ｜  [**iOS端**](https://github.com/easemob/communityim-demo-ios) 
  欢迎人美心善的你star～
